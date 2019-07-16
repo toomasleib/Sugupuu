@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <SuguPuuDataSet xmlns="http://tempuri.org/SuguPuuDataSet.xsd">
   <xs:schema id="SuguPuuDataSet" targetNamespace="http://tempuri.org/SuguPuuDataSet.xsd" xmlns:mstns="http://tempuri.org/SuguPuuDataSet.xsd" xmlns="http://tempuri.org/SuguPuuDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
-    <xs:element name="SuguPuuDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False">
+    <xs:element name="SuguPuuDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
           <xs:element name="Relatives">
@@ -13489,12 +13489,6 @@
     <Name>sortD</Name>
     <Value>1</Value>
     <Type>Int</Type>
-    <Index>-1</Index>
-  </Config>
-  <Config>
-    <Name>filtering</Name>
-    <Value>False</Value>
-    <Type>Boolean</Type>
     <Index>-1</Index>
   </Config>
   <Config>
