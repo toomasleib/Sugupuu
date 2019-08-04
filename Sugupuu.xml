@@ -235,7 +235,7 @@
     <PersonId>2</PersonId>
     <Code>0</Code>
     <Name>Kalju Mänd</Name>
-    <Birth>0001-01-01T00:00:00+02:00</Birth>
+    <Birth>1940-02-20T00:00:00+02:00</Birth>
     <Gender>M</Gender>
     <Death>0001-01-01T00:00:00+02:00</Death>
     <ControlDate>0001-01-01T00:00:00+02:00</ControlDate>
@@ -253,7 +253,7 @@
     <PersonId>3</PersonId>
     <Code>0A</Code>
     <Name>Malle Mänd</Name>
-    <Birth>0001-01-01T00:00:00+02:00</Birth>
+    <Birth>1945-01-11T00:00:00+02:00</Birth>
     <Gender>N</Gender>
     <Death>0001-01-01T00:00:00+02:00</Death>
     <ControlDate>0001-01-01T00:00:00+02:00</ControlDate>
@@ -264,14 +264,14 @@
     <NameKey>Mänd Malle</NameKey>
     <RootRelation>naine </RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>01CC0001-01-01Mänd Malle                    </RelationsKey>
+    <RelationsKey>01CC1945-01-11Mänd Malle                    </RelationsKey>
     <Email />
   </Person>
   <Person>
     <PersonId>4</PersonId>
     <Code>01L</Code>
     <Name>Maie Tamm-Mänd</Name>
-    <Birth>0001-01-01T00:00:00+02:00</Birth>
+    <Birth>1968-10-10T00:00:00+03:00</Birth>
     <Gender>N</Gender>
     <Death>0001-01-01T00:00:00+02:00</Death>
     <ControlDate>0001-01-01T00:00:00+02:00</ControlDate>
@@ -282,7 +282,7 @@
     <NameKey>Tamm-Mänd Maie</NameKey>
     <RootRelation>tütar </RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>01EE0001-01-01Tamm-Mänd Maie                </RelationsKey>
+    <RelationsKey>01EE1968-10-10Tamm-Mänd Maie                </RelationsKey>
     <Email />
   </Person>
   <Person>
@@ -295,12 +295,12 @@
     <ControlDate>0001-01-01T00:00:00+02:00</ControlDate>
     <Marriage>0001-01-01T00:00:00+02:00</Marriage>
     <Mobile />
-    <Phone />
+    <Phone>Kui Arno isaga koolimajja jõudis, olid tunnid juba alanud ....</Phone>
     <Address />
     <NameKey>Tamm Tõnu</NameKey>
     <RootRelation>väimees |-&gt;Maie Tamm-Mänd-&gt;|</RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>02ECE0001-01-01Tamm-Mänd Maie                C0001-01-01Tamm Tõnu                     </RelationsKey>
+    <RelationsKey>02ECE1968-10-10Tamm-Mänd Maie                C0001-01-01Tamm Tõnu                     </RelationsKey>
     <Email />
   </Person>
   <Person>
@@ -318,7 +318,7 @@
     <NameKey>Tamm Aile</NameKey>
     <RootRelation>tütretütar |-&gt;Maie Tamm-Mänd-&gt;|</RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>02EEE0001-01-01Tamm-Mänd Maie                E0001-01-01Tamm Aile                     </RelationsKey>
+    <RelationsKey>02EEE1968-10-10Tamm-Mänd Maie                E0001-01-01Tamm Aile                     </RelationsKey>
     <Email />
   </Person>
   <Person>
@@ -336,7 +336,7 @@
     <NameKey>Tamm Alar</NameKey>
     <RootRelation>tütrepoeg |-&gt;Maie Tamm-Mänd-&gt;|</RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>02EEE0001-01-01Tamm-Mänd Maie                E0001-01-01Tamm Alar                     </RelationsKey>
+    <RelationsKey>02EEE1968-10-10Tamm-Mänd Maie                E0001-01-01Tamm Alar                     </RelationsKey>
     <Email />
   </Person>
   <Person>
@@ -354,7 +354,7 @@
     <NameKey>Tamm Alfred</NameKey>
     <RootRelation>tütar-&gt;äi |-&gt;Maie Tamm-Mänd-&gt;Tõnu Tamm-&gt;|</RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>03ECAE0001-01-01Tamm-Mänd Maie                C0001-01-01Tamm Tõnu                     AB0001-01-01Tamm Alfred                   </RelationsKey>
+    <RelationsKey>03ECAE1968-10-10Tamm-Mänd Maie                C0001-01-01Tamm Tõnu                     AB0001-01-01Tamm Alfred                   </RelationsKey>
     <Email />
   </Person>
   <Person>
@@ -372,12 +372,12 @@
     <NameKey>Tamm Elise</NameKey>
     <RootRelation>tütar-&gt;ämm |-&gt;Maie Tamm-Mänd-&gt;Tõnu Tamm-&gt;|</RootRelation>
     <RootPId>2</RootPId>
-    <RelationsKey>03ECAE0001-01-01Tamm-Mänd Maie                C0001-01-01Tamm Tõnu                     AA0001-01-01Tamm Elise                    </RelationsKey>
+    <RelationsKey>03ECAE1968-10-10Tamm-Mänd Maie                C0001-01-01Tamm Tõnu                     AA0001-01-01Tamm Elise                    </RelationsKey>
     <Email />
   </Person>
   <Config>
     <Name>curPId</Name>
-    <Value>9</Value>
+    <Value>2</Value>
     <Type>Int</Type>
     <Index>-1</Index>
   </Config>
@@ -407,7 +407,7 @@
   </Config>
   <Config>
     <Name>viewFilter</Name>
-    <Value>{"filtering":false,"filterPIds":[],"fExpr":null,"fExpressions":[]}</Value>
+    <Value>{"filtering":false,"filterPIds":null,"fExpr":null,"fExpressions":[]}</Value>
     <Type>Json</Type>
     <Index>-1</Index>
   </Config>
